@@ -1,1 +1,0 @@
-$(".footnote").each(function(a){console.log(a+1),$(this).offset(function(){var b=$("#fnlink"+String(a+1)).offset().top;console.log(b);var c=$("#fn"+String(a+1)).offset().left;if(a>0){var d=$("#fn"+String(a))[0].getBoundingClientRect().bottom;console.log(d),d+15.5>b&&(b=d+15.5)}return{top:b,left:c}})});
